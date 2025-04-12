@@ -50,8 +50,8 @@ vector<int> generateArray(int n){
     for (int i = 0; i < n; i++){
         vect[i] = rand() % 2001 - 1000;
     }
-    int a = rand() % 500 - 250;
-    int b = rand() % 2001 - 100;
+    int a = rand() % 100 + 1;
+    int b = rand() % 100 + 1;
     vect.push_back(a);
     vect.push_back(b);
     vect.push_back(-a-b);
